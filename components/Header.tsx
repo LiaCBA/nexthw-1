@@ -10,7 +10,9 @@ const Header = () => {
           <li className="hover:text-gray-500">
             <Link href="/"> Home</Link>
           </li>
-          <li className="hover:text-gray-500">Dashboard</li>
+          <li className="hover:text-gray-500">
+            <Link href="/pages/dashboard/my-account">Dashboard</Link>
+          </li>
           <li className="hover:text-gray-500">Blog</li>
           <li className="hover:text-gray-500">Help Center</li>
           <li className="hover:text-gray-500">About</li>

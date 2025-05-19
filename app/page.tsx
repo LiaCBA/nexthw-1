@@ -19,7 +19,7 @@ const Home = () => {
         </p>
         <div className="inline-block relative mt-[24px]">
           <div className="absolute inset-0 border-[1px] border-white -translate-x-1.5 translate-y-1.5"></div>
-          <button className="relative bg-[#ED432E] pt-[16px] pr-[20px] pb-[16px] pl-[20px] font-bold cursor-pointer">
+          <button className="relative bg-[#ED432E] hover:bg-red-600 pt-[16px] pr-[20px] pb-[16px] pl-[20px] font-bold cursor-pointer">
             Create Team
           </button>
         </div>
